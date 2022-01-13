@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C595ABBFF326CA1246B43A6 /* Pods_trioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A19891AFACC65E7262C738 /* Pods_trioTests.framework */; };
+		E534302DC01725033A4583DC /* Pods_trio_trioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112F0C2ACFC7DAA45C3E7F18 /* Pods_trio_trioUITests.framework */; };
+		E907B543586D0EC358294C73 /* Pods_trio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF313D2917EA0F79F50E2E8 /* Pods_trio.framework */; };
+		F83B499E278FD5AA00CB77A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B499D278FD5AA00CB77A6 /* AppDelegate.swift */; };
+		F83B49A0278FD5AA00CB77A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B499F278FD5AA00CB77A6 /* SceneDelegate.swift */; };
+		F83B49A2278FD5AA00CB77A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B49A1278FD5AA00CB77A6 /* ViewController.swift */; };
+		F83B49A5278FD5AA00CB77A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83B49A3278FD5AA00CB77A6 /* Main.storyboard */; };
+		F83B49A7278FD5AB00CB77A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83B49A6278FD5AB00CB77A6 /* Assets.xcassets */; };
+		F83B49AA278FD5AB00CB77A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83B49A8278FD5AB00CB77A6 /* LaunchScreen.storyboard */; };
+		F83B49B5278FD5AB00CB77A6 /* trioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B49B4278FD5AB00CB77A6 /* trioTests.swift */; };
+		F83B49BF278FD5AB00CB77A6 /* trioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B49BE278FD5AB00CB77A6 /* trioUITests.swift */; };
+		F83B49C1278FD5AB00CB77A6 /* trioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83B49C0278FD5AB00CB77A6 /* trioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F83B49B1278FD5AB00CB77A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83B4992278FD5AA00CB77A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83B4999278FD5AA00CB77A6;
+			remoteInfo = trio;
+		};
+		F83B49BB278FD5AB00CB77A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83B4992278FD5AA00CB77A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83B4999278FD5AA00CB77A6;
+			remoteInfo = trio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112F0C2ACFC7DAA45C3E7F18 /* Pods_trio_trioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trio_trioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CEDD858C9CDE34BA6DE049 /* Pods-trio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trio.debug.xcconfig"; path = "Target Support Files/Pods-trio/Pods-trio.debug.xcconfig"; sourceTree = "<group>"; };
+		3677BF5A99F0EFDBDDA2E8C9 /* Pods-trioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trioTests.debug.xcconfig"; path = "Target Support Files/Pods-trioTests/Pods-trioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41BF9BE7E62BB45F9DEB4087 /* Pods-trioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trioTests.release.xcconfig"; path = "Target Support Files/Pods-trioTests/Pods-trioTests.release.xcconfig"; sourceTree = "<group>"; };
+		70A19891AFACC65E7262C738 /* Pods_trioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54D921ABCBB933FD61EC1E4 /* Pods-trio-trioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trio-trioUITests.debug.xcconfig"; path = "Target Support Files/Pods-trio-trioUITests/Pods-trio-trioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7A89436D4CAA83DADA22DE0 /* Pods-trio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trio.release.xcconfig"; path = "Target Support Files/Pods-trio/Pods-trio.release.xcconfig"; sourceTree = "<group>"; };
+		EB12E5CBDF7E1564D158F745 /* Pods-trio-trioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trio-trioUITests.release.xcconfig"; path = "Target Support Files/Pods-trio-trioUITests/Pods-trio-trioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F83B499A278FD5AA00CB77A6 /* trio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83B499D278FD5AA00CB77A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F83B499F278FD5AA00CB77A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F83B49A1278FD5AA00CB77A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F83B49A4278FD5AA00CB77A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F83B49A6278FD5AB00CB77A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F83B49A9278FD5AB00CB77A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F83B49AB278FD5AB00CB77A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83B49B0278FD5AB00CB77A6 /* trioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83B49B4278FD5AB00CB77A6 /* trioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trioTests.swift; sourceTree = "<group>"; };
+		F83B49BA278FD5AB00CB77A6 /* trioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83B49BE278FD5AB00CB77A6 /* trioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trioUITests.swift; sourceTree = "<group>"; };
+		F83B49C0278FD5AB00CB77A6 /* trioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBF313D2917EA0F79F50E2E8 /* Pods_trio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83B4997278FD5AA00CB77A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E907B543586D0EC358294C73 /* Pods_trio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B49AD278FD5AB00CB77A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C595ABBFF326CA1246B43A6 /* Pods_trioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B49B7278FD5AB00CB77A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E534302DC01725033A4583DC /* Pods_trio_trioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD3E256215E4D287C83EFE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34CEDD858C9CDE34BA6DE049 /* Pods-trio.debug.xcconfig */,
+				A7A89436D4CAA83DADA22DE0 /* Pods-trio.release.xcconfig */,
+				A54D921ABCBB933FD61EC1E4 /* Pods-trio-trioUITests.debug.xcconfig */,
+				EB12E5CBDF7E1564D158F745 /* Pods-trio-trioUITests.release.xcconfig */,
+				3677BF5A99F0EFDBDDA2E8C9 /* Pods-trioTests.debug.xcconfig */,
+				41BF9BE7E62BB45F9DEB4087 /* Pods-trioTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8B416377F7614BCAB6D6ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF313D2917EA0F79F50E2E8 /* Pods_trio.framework */,
+				112F0C2ACFC7DAA45C3E7F18 /* Pods_trio_trioUITests.framework */,
+				70A19891AFACC65E7262C738 /* Pods_trioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F83B4991278FD5AA00CB77A6 = {
+			isa = PBXGroup;
+			children = (
+				F83B499C278FD5AA00CB77A6 /* trio */,
+				F83B49B3278FD5AB00CB77A6 /* trioTests */,
+				F83B49BD278FD5AB00CB77A6 /* trioUITests */,
+				F83B499B278FD5AA00CB77A6 /* Products */,
+				2BD3E256215E4D287C83EFE0 /* Pods */,
+				E8B416377F7614BCAB6D6ADE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F83B499B278FD5AA00CB77A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83B499A278FD5AA00CB77A6 /* trio.app */,
+				F83B49B0278FD5AB00CB77A6 /* trioTests.xctest */,
+				F83B49BA278FD5AB00CB77A6 /* trioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83B499C278FD5AA00CB77A6 /* trio */ = {
+			isa = PBXGroup;
+			children = (
+				F83B499D278FD5AA00CB77A6 /* AppDelegate.swift */,
+				F83B499F278FD5AA00CB77A6 /* SceneDelegate.swift */,
+				F83B49A1278FD5AA00CB77A6 /* ViewController.swift */,
+				F83B49A3278FD5AA00CB77A6 /* Main.storyboard */,
+				F83B49A6278FD5AB00CB77A6 /* Assets.xcassets */,
+				F83B49A8278FD5AB00CB77A6 /* LaunchScreen.storyboard */,
+				F83B49AB278FD5AB00CB77A6 /* Info.plist */,
+			);
+			path = trio;
+			sourceTree = "<group>";
+		};
+		F83B49B3278FD5AB00CB77A6 /* trioTests */ = {
+			isa = PBXGroup;
+			children = (
+				F83B49B4278FD5AB00CB77A6 /* trioTests.swift */,
+			);
+			path = trioTests;
+			sourceTree = "<group>";
+		};
+		F83B49BD278FD5AB00CB77A6 /* trioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F83B49BE278FD5AB00CB77A6 /* trioUITests.swift */,
+				F83B49C0278FD5AB00CB77A6 /* trioUITestsLaunchTests.swift */,
+			);
+			path = trioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83B4999278FD5AA00CB77A6 /* trio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83B49C4278FD5AB00CB77A6 /* Build configuration list for PBXNativeTarget "trio" */;
+			buildPhases = (
+				893F2C03D57943E0FEDB34F0 /* [CP] Check Pods Manifest.lock */,
+				F83B4996278FD5AA00CB77A6 /* Sources */,
+				F83B4997278FD5AA00CB77A6 /* Frameworks */,
+				F83B4998278FD5AA00CB77A6 /* Resources */,
+				45B069392884127E62E92029 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trio;
+			productName = trio;
+			productReference = F83B499A278FD5AA00CB77A6 /* trio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F83B49AF278FD5AB00CB77A6 /* trioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83B49C7278FD5AB00CB77A6 /* Build configuration list for PBXNativeTarget "trioTests" */;
+			buildPhases = (
+				8C3430BE824FBF6AC492AB35 /* [CP] Check Pods Manifest.lock */,
+				F83B49AC278FD5AB00CB77A6 /* Sources */,
+				F83B49AD278FD5AB00CB77A6 /* Frameworks */,
+				F83B49AE278FD5AB00CB77A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F83B49B2278FD5AB00CB77A6 /* PBXTargetDependency */,
+			);
+			name = trioTests;
+			productName = trioTests;
+			productReference = F83B49B0278FD5AB00CB77A6 /* trioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F83B49B9278FD5AB00CB77A6 /* trioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83B49CA278FD5AB00CB77A6 /* Build configuration list for PBXNativeTarget "trioUITests" */;
+			buildPhases = (
+				59FF980F111AC43E75C69376 /* [CP] Check Pods Manifest.lock */,
+				F83B49B6278FD5AB00CB77A6 /* Sources */,
+				F83B49B7278FD5AB00CB77A6 /* Frameworks */,
+				F83B49B8278FD5AB00CB77A6 /* Resources */,
+				A81343B73997DFA66894ADC0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F83B49BC278FD5AB00CB77A6 /* PBXTargetDependency */,
+			);
+			name = trioUITests;
+			productName = trioUITests;
+			productReference = F83B49BA278FD5AB00CB77A6 /* trioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83B4992278FD5AA00CB77A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F83B4999278FD5AA00CB77A6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F83B49AF278FD5AB00CB77A6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F83B4999278FD5AA00CB77A6;
+					};
+					F83B49B9278FD5AB00CB77A6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F83B4999278FD5AA00CB77A6;
+					};
+				};
+			};
+			buildConfigurationList = F83B4995278FD5AA00CB77A6 /* Build configuration list for PBXProject "trio" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F83B4991278FD5AA00CB77A6;
+			productRefGroup = F83B499B278FD5AA00CB77A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83B4999278FD5AA00CB77A6 /* trio */,
+				F83B49AF278FD5AB00CB77A6 /* trioTests */,
+				F83B49B9278FD5AB00CB77A6 /* trioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83B4998278FD5AA00CB77A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83B49AA278FD5AB00CB77A6 /* LaunchScreen.storyboard in Resources */,
+				F83B49A7278FD5AB00CB77A6 /* Assets.xcassets in Resources */,
+				F83B49A5278FD5AA00CB77A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B49AE278FD5AB00CB77A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B49B8278FD5AB00CB77A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45B069392884127E62E92029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trio/Pods-trio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trio/Pods-trio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-trio/Pods-trio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59FF980F111AC43E75C69376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-trio-trioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		893F2C03D57943E0FEDB34F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-trio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3430BE824FBF6AC492AB35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-trioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81343B73997DFA66894ADC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trio-trioUITests/Pods-trio-trioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trio-trioUITests/Pods-trio-trioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-trio-trioUITests/Pods-trio-trioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83B4996278FD5AA00CB77A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83B49A2278FD5AA00CB77A6 /* ViewController.swift in Sources */,
+				F83B499E278FD5AA00CB77A6 /* AppDelegate.swift in Sources */,
+				F83B49A0278FD5AA00CB77A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B49AC278FD5AB00CB77A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83B49B5278FD5AB00CB77A6 /* trioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B49B6278FD5AB00CB77A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83B49C1278FD5AB00CB77A6 /* trioUITestsLaunchTests.swift in Sources */,
+				F83B49BF278FD5AB00CB77A6 /* trioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F83B49B2278FD5AB00CB77A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83B4999278FD5AA00CB77A6 /* trio */;
+			targetProxy = F83B49B1278FD5AB00CB77A6 /* PBXContainerItemProxy */;
+		};
+		F83B49BC278FD5AB00CB77A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83B4999278FD5AA00CB77A6 /* trio */;
+			targetProxy = F83B49BB278FD5AB00CB77A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F83B49A3278FD5AA00CB77A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83B49A4278FD5AA00CB77A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F83B49A8278FD5AB00CB77A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83B49A9278FD5AB00CB77A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F83B49C2278FD5AB00CB77A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F83B49C3278FD5AB00CB77A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F83B49C5278FD5AB00CB77A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CEDD858C9CDE34BA6DE049 /* Pods-trio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D554N9ZKZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = trio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.trio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F83B49C6278FD5AB00CB77A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A89436D4CAA83DADA22DE0 /* Pods-trio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D554N9ZKZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = trio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.trio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F83B49C8278FD5AB00CB77A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3677BF5A99F0EFDBDDA2E8C9 /* Pods-trioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D554N9ZKZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.trioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trio.app/trio";
+			};
+			name = Debug;
+		};
+		F83B49C9278FD5AB00CB77A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BF9BE7E62BB45F9DEB4087 /* Pods-trioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D554N9ZKZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.trioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trio.app/trio";
+			};
+			name = Release;
+		};
+		F83B49CB278FD5AB00CB77A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54D921ABCBB933FD61EC1E4 /* Pods-trio-trioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D554N9ZKZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.trioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trio;
+			};
+			name = Debug;
+		};
+		F83B49CC278FD5AB00CB77A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB12E5CBDF7E1564D158F745 /* Pods-trio-trioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D554N9ZKZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.trioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83B4995278FD5AA00CB77A6 /* Build configuration list for PBXProject "trio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83B49C2278FD5AB00CB77A6 /* Debug */,
+				F83B49C3278FD5AB00CB77A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83B49C4278FD5AB00CB77A6 /* Build configuration list for PBXNativeTarget "trio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83B49C5278FD5AB00CB77A6 /* Debug */,
+				F83B49C6278FD5AB00CB77A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83B49C7278FD5AB00CB77A6 /* Build configuration list for PBXNativeTarget "trioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83B49C8278FD5AB00CB77A6 /* Debug */,
+				F83B49C9278FD5AB00CB77A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83B49CA278FD5AB00CB77A6 /* Build configuration list for PBXNativeTarget "trioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83B49CB278FD5AB00CB77A6 /* Debug */,
+				F83B49CC278FD5AB00CB77A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83B4992278FD5AA00CB77A6 /* Project object */;
+}
